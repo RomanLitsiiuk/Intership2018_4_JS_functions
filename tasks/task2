@@ -1,0 +1,7 @@
+Create a function which takes two arguments: number, represented
+as string and number. If second number is divisible by 3, 5 and 15
+without remainder – multiply it by -1. Function should return numeric
+sum of two arguments.
+sum(‘25’, 15) =&gt; 10
+sum(‘3’, 41) =&gt; 44
+sum(‘3’, 45) =&gt; -42

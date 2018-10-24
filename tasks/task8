@@ -1,0 +1,4 @@
+Write a function that gets two infinite numbers as strings. You should
+return the result of these two numbers sum as string(flip the second
+string before calculate). Mathematical operations with these two numbers are
+unavailable.

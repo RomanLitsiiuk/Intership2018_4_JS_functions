@@ -1,0 +1,13 @@
+Write function cache
+let complexFunction = function(arg1, arg2) {
+/* complex calculation in here */
+ return arg1 + arg2; //Example
+};
+let cachedFunction = cache(complexFunction);
+cachedFunction(&#39;foo&#39;, &#39;bar&#39;); // complex function should be executed
+cachedFunction(&#39;foo&#39;, &#39;bar&#39;); // complex function shouldn`t be invoked
+again,
+                             // instead the cached result should be returned
+cachedFunction(&#39;foo&#39;, &#39;baz&#39;); // should be executed,
+                        //because the method wasn&#39;t invoked before with
+these arguments

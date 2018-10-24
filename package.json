@@ -1,0 +1,17 @@
+{
+  "name": "10_js-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_eslintrc.js",
+  "author": "RomanLitsiiuk",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.3.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}

@@ -1,0 +1,4 @@
+You need to create a function which takes an object and returns a
+new object with the methods that it received from the incoming object.
+When you call methods from the new object, everything should work
+and return the same result as the original object

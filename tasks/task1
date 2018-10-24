@@ -1,0 +1,12 @@
+Write a title validation function which takes a string as an argument
+and validates it by the rules:
+- title can contain letters and special characters: [!,:,-,?,.,,].
+- title length must be more than 2 characters but less than 20;
+- title must start with an uppercase letter;
+
+Function should return ‘VALID’ if the string meets the requirements or
+‘INVALID’ if it does not.
+Do not use regular expressions.
+validateTitle(‘Title!’) -&gt; ‘VALID’
+validateTitle(‘s’) -&gt; ‘INVALID’
+validateTitle(‘12title’) -&gt; ‘INVALID’

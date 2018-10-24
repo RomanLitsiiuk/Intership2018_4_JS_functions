@@ -1,0 +1,4 @@
+Create function that gets two arguments:
+the first one is array of objects? the second one is string(name of author).
+Your function should return quantity of posts with author from argument of
+function and the comments with the same author.

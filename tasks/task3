@@ -1,0 +1,10 @@
+Create a function which checks a number for three different
+requirements:
+● the number is prime
+● the number is even
+● the number is a multiple of 10
+Each should return either true or false, which should be given as an array.
+The number will always be an integer, either positive or negative. Note that
+negative numbers cannot be primes, but they can be multiples of 10.
+checkNumber(7) // ---> [true, false, false]
+checkNumber(-10) // ---> [false, true, true]

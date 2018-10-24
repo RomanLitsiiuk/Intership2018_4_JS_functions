@@ -1,0 +1,3 @@
+Given an array of objects, and random string. Objects can have a key: ‘title’ with different values
+(phrases). Make algorithm which filters array, given as first param, and returns an array of objects
+which contain in their titles given string as second param (case-insensitive).

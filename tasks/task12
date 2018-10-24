@@ -1,0 +1,6 @@
+Create object ladder with 3 methods “up”, “down” and “showStep”.
+Also it has property “step”. Step initially equal to 0. It should support
+chaining calls.
+Up/down - increasing/decreasing counter
+showStep - showing current step counter
+ladder.up().up().down().up().down().showStep(); //1+1-1+1-1 = 1
